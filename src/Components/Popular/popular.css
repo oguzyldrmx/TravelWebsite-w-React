@@ -1,0 +1,148 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl (201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.popular .secContainer {
+  margin-top: 120px;
+  margin-left: 120px;
+}
+.popular .secContainer .secHeader {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.popular .secContainer .secHeader .textDiv .secTitle {
+  display: flex;
+  width: 592px;
+  height: 118px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+}
+.popular .secContainer .secHeader .textDiv p {
+  width: 525px;
+  height: 56px;
+  left: 112px;
+  top: 1566px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.popular .secContainer .secHeader .iconsDiv {
+  gap: 0.5rem;
+}
+.popular .secContainer .secHeader .iconsDiv .leftIcon {
+  width: 57px;
+  height: 57px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.popular .secContainer .secHeader .iconsDiv .leftIcon:hover {
+  background: grey;
+  -moz-column-rule: var(--whiteColor);
+       column-rule: var(--whiteColor);
+}
+.popular .secContainer .secHeader .iconsDiv .rightIcon {
+  width: 57px;
+  height: 57px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.popular .secContainer .secHeader .iconsDiv .rightIcon:hover {
+  background: grey;
+  -moz-column-rule: var(--whiteColor);
+       column-rule: var(--whiteColor);
+}
+.popular .secContainer .mainContent {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.popular .secContainer .mainContent .singleDestination {
+  margin: 24px;
+}
+.popular .secContainer .mainContent .singleDestination .destImage {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  margin: auto;
+}
+.popular .secContainer .mainContent .singleDestination .destFooter .destName {
+  width: 310px;
+  height: 68px;
+  margin-top: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.popular .secContainer .mainContent .singleDestination .destFooter .destName .destText {
+  margin-top: 10px;
+  width: 300px;
+  height: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.7);
+}
+.popular .secContainer .mainContent .singleDestination .destFooter .destName .destText .destReview {
+  width: 300px;
+  height: 17px;
+  margin-top: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 488px) {
+  .popular {
+    padding-top: 10rem;
+  }
+}
+@media screen and (min-width: 550px) {
+  .popular .secContainer .secHeader {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popular .secContainer .secHeader .textDiv {
+    text-align: start;
+    max-width: 70%;
+  }
+  .popular .secContainer .secHeader .iconsDiv {
+    justify-content: flex-end;
+  }
+}/*# sourceMappingURL=popular.css.map */

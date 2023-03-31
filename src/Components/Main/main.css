@@ -1,0 +1,225 @@
+.main .mainContainer {
+  margin-top: 120px;
+  margin-left: 120px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.main .mainContainer .mainHeader .textDiv .mainTitle {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 74px;
+  /* or 154% */
+  color: #000000;
+}
+.main .mainContainer .mainHeader .textDiv .mainTitle p {
+  width: 40%;
+  margin-left: 100x;
+  margin-right: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 156% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.main .mainContainer .mainBoxes {
+  display: flex;
+}
+.main .mainContainer .mainBoxes .firstBox {
+  margin-top: 60px;
+  display: flex;
+  width: 25%;
+  height: 226px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.main .mainContainer .mainBoxes .firstBox .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 33px;
+  margin-left: 20px;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  background: #cae9cf;
+  border-radius: 40px;
+}
+.main .mainContainer .mainBoxes .firstBox h3 {
+  width: 100%;
+  height: 24px;
+  margin-top: 105px;
+  margin-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.main .mainContainer .mainBoxes .firstBox h3 p {
+  position: relative;
+  margin-top: 5%;
+  width: 95%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.main .mainContainer .mainBoxes .secondBox {
+  width: 25%;
+  height: 226px;
+  margin-top: 60px;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.main .mainContainer .mainBoxes .secondBox .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 33px;
+  margin-left: 20px;
+  position: absolute;
+  width: 56px;
+  height: 56.5px;
+  background: #cae9cf;
+  border-radius: 50px;
+}
+.main .mainContainer .mainBoxes .secondBox h3 {
+  position: flex;
+  width: 100%;
+  height: 24px;
+  margin-top: 105px;
+  margin-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.main .mainContainer .mainBoxes .secondBox h3 p {
+  width: 95%;
+  height: 54px;
+  margin-top: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.main .mainContainer .mainBoxes .thirdBox {
+  width: 25%;
+  height: 226px;
+  margin-top: 60px;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.main .mainContainer .mainBoxes .thirdBox .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 33px;
+  margin-left: 20px;
+  position: absolute;
+  width: 56px;
+  height: 56.5px;
+  background: #cae9cf;
+  border-radius: 50px;
+}
+.main .mainContainer .mainBoxes .thirdBox h3 {
+  position: flex;
+  width: 100%;
+  height: 24px;
+  margin-top: 105px;
+  margin-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.main .mainContainer .mainBoxes .thirdBox h3 p {
+  width: 95%;
+  height: 54px;
+  margin-top: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.main .mainContainer .mainBoxes .fourthBox {
+  width: 25%;
+  height: 226px;
+  margin-top: 60px;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.main .mainContainer .mainBoxes .fourthBox .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 33px;
+  margin-left: 20px;
+  position: absolute;
+  width: 56px;
+  height: 56.5px;
+  background: #cae9cf;
+  border-radius: 50px;
+}
+.main .mainContainer .mainBoxes .fourthBox h3 {
+  position: flex;
+  width: 100%;
+  height: 24px;
+  margin-top: 105px;
+  margin-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.main .mainContainer .mainBoxes .fourthBox h3 p {
+  width: 95%;
+  height: 54px;
+  margin-top: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: rgba(0, 0, 0, 0.7);
+}/*# sourceMappingURL=main.css.map */

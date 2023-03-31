@@ -1,0 +1,27 @@
+1. Home Page
+    * Konum ve tarih tabanlı keşif için arama çubuğu
+    * Büyük bir resim:
+	* Iconlardan oluşan bir div
+2. Services Page
+    * Sağlanan servisler ile ilgili bilgiler.
+        
+3.Populars Place Page
+    *En çok tercih edilen tatil yerleri.
+	*Trend olan destinasyonların resimlerini ve açıklamalarını içeren popüler destinasyonlar bölümü.
+	*Destinasyonların puanlamaları
+4.About page
+    *Neden bu firmayı seçmemizi açıklayan bilgiler.
+	*"Daha fazla" butonu
+	*Şirketin sağladığı yolculuk sayısı, ne zamandır bu işi yaptığı ve ne kadar müşterinin kullandığını gösteren sekme
+5.Blog page
+    *Firmayı tercih eden kullanıcıların değerlendirmeleri
+	*Sağ ve sola ilerlemeyi sağlayan butonlar
+	*Kullanıcı yorumları
+6.Mobile App Page
+    *App Store ya da Google Play için indirme butonları
+7.Footer page
+    *Firma iconu
+    *Firma sloganı
+	*Menüler
+	  *İlgili sayfalara gitmeyi sağlayan "a" tagleri
+    *Copyright

@@ -1,0 +1,298 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl (201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.footer {
+  
+  
+  width: 100%;
+  
+  left: 0px;
+  
+
+  background: #031d06;
+  
+  .secContainer {
+    gap: 1.5rem;
+    .footerLogo {
+      margin-top: 75px;
+      margin-left: 120px;
+      padding-bottom: 0.5rem;
+      .logo {
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+
+        h1 {
+          
+          display: flex;
+          width: 100%;
+
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          /* identical to box height */
+
+          color: #ffffff;
+        }
+        p {
+         
+          display: flex;
+          width: 60%;
+         
+          
+
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 27px;
+          /* or 193% */
+
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+
+    .footerLinks{
+      padding-top: 10px;
+      
+      gap: 70px;
+      height: max-content;
+      
+      width: 100%;
+     
+      .footerLinksMenu {
+        margin-top: 3%;
+        .linkTitle {
+          
+          display: flex;
+          width: 100%; 
+          
+          
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+        li {
+          &:hover {
+            transform: translateX(10px);
+            a {
+              color: var(--PrimaryColor);
+            }
+          }
+        }
+        a {
+          
+          width: 100%; 
+          
+          
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+  
+          color: #ffffff;
+        }
+      }
+      .footerLinksBooking {
+        margin-top: 3%;
+        .linkTitle {
+         
+         display: flex;
+          
+         
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+  
+          color: #ffffff;
+        }
+        li {
+          &:hover {
+            transform: translateX(10px);
+            a {
+              color: var(--PrimaryColor);
+            }
+          }
+        }
+        a {
+         
+          width: 100%;
+         
+          
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+  
+          color: #ffffff;
+        }
+      }
+      .footerLinksInformation {
+        margin-top: 3%;
+        .linkTitle {
+         
+          display: flex;
+          width: 100%;
+          height: 24px;
+         
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+  
+          color: #ffffff;
+        }
+        li {
+          &:hover {
+            transform: translateX(10px);
+            a {
+              color: var(--PrimaryColor);
+            }
+          }
+        }
+        a {
+         
+          width: 100%;
+          height: 17px;
+          
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+  
+          color: #ffffff;
+        }
+      }
+      .footerLinksContact {
+        margin-top: 0%;
+        .linkTitle {
+         
+          display: flex;
+          width: 100%;
+          
+         
+  
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          
+  
+          color: #ffffff;
+        }
+  
+        span {
+          
+          width: 100%;
+          margin-top: 0%;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          
+          /* identical to box height */
+  
+          color: #ffffff;
+        }
+      }
+  
+    }
+   
+  }
+  .copyright {
+    
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 2%;
+    justify-content: center;
+    
+
+    
+    p {
+      
+      
+      right: 40%;
+      top: 20px;
+      width: 300px;
+      height: 24px;
+      color: white
+      ;
+    }
+  }
+  
+}
+
+
+@media screen and (min-width:550px){
+  .footer{
+    .secContainer{
+      .footerLogo{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .footerLinks{
+          text-align: start;
+          max-width: 70%;
+        }
+
+        
+      }
+      .copyright {
+    
+    
+        text-align: start;
+          max-width: 70%;
+        
+    
+        
+        p {
+          
+          
+          text-align: start;
+          max-width: 70%;
+        }
+      }
+    }
+  }
+}

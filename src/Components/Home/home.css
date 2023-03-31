@@ -1,0 +1,175 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl (201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.home {
+  width: 100%;
+  background: #eaffee;
+}
+.home .homeContent {
+  height: 761px;
+  display: flex;
+  color: black;
+  background: #eaffed;
+}
+.home .homeContent .textDiv {
+  padding: 2rem 0;
+  width: 60%;
+}
+.home .homeContent .textDiv .homeTitle {
+  display: flex;
+  margin-top: 152px;
+  left: 120px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  color: #000000;
+}
+.home .homeContent .textDiv .smallText {
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: rgba(0, 0, 0, 0.7);
+}
+.home .homeContent .textDiv .cardDiv {
+  width: 60%;
+  height: 72px;
+  margin-top: 70px;
+  background: #cae9cf;
+  border-radius: 40px;
+}
+.home .homeContent .textDiv .cardDiv .icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.home .homeContent .textDiv .cardDiv label {
+  color: var(--textColor);
+  font-size: 14px;
+  font-weight: 500;
+}
+.home .homeContent .textDiv .cardDiv .input {
+  height: 40px;
+  border-radius: 3rem;
+}
+.home .homeContent .textDiv .cardDiv .input input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+.home .homeContent .textDiv .cardDiv .input input::-moz-placeholder {
+  font-size: 16px;
+}
+.home .homeContent .textDiv .cardDiv .input input::placeholder {
+  font-size: 16px;
+}
+.home .homeContent .textDiv .cardDiv .searchOptions {
+  background: black;
+  width: -moz-max-content;
+  width: max-content;
+  color: white;
+  padding: 20px 2rem;
+  border-radius: 38px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.home .homeContent .textDiv .cardDiv .searchOptions:hover {
+  background: var(--PrimaryColor);
+}
+.home .homeContent .textDiv .cardDiv .searchOptions .icon {
+  font-size: 18px;
+}
+.home .homeContent .textDiv .cardDiv .searchOptions span {
+  font-size: 18px;
+}
+.home .homeContent .photoContent {
+  margin-top: 10%;
+  width: 550px;
+  height: 70%;
+  background: url("../../Assets/sss.jpg");
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .homeContent .photoContent .emotionDiv {
+  width: 310px;
+  height: 132px;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 20px;
+  margin-top: 100%;
+  margin-left: 60%;
+}
+.home .homeContent .photoContent .emotionDiv h2 {
+  text-align: center;
+  justify-content: center;
+  width: 231px;
+  height: 29px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.home .homeContent .photoContent .emotionDiv .icon {
+  justify-self: center;
+  padding: 0 0.4rem;
+  font-size: 55px;
+}
+
+@media screen and (min-width: 480px) {
+  .home .secContainer .homeCard {
+    bottom: -100px;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home .secContainer .homeCard .btn {
+    transform: translateY(15px);
+  }
+}
+@media screen and (min-width: 720px) {
+  .home .secContainer .homeCard {
+    bottom: -20%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 720px) {
+  .home .secContainer .homeText {
+    padding: 1rem 10rem;
+  }
+  .home .secContainer .homeText .title {
+    font-size: 3.5rem;
+    margin: auto;
+    line-height: 4rem;
+  }
+}/*# sourceMappingURL=home.css.map */

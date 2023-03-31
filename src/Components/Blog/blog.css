@@ -1,0 +1,176 @@
+.blog .blogContainer {
+  margin-top: 120px;
+  margin-left: 120px;
+}
+.blog .blogContainer .blogHeader {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.blog .blogContainer .blogHeader .textDiv .blogTitle {
+  width: 467px;
+  height: 118px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.blog .blogContainer .blogHeader .textDiv p {
+  width: 525px;
+  height: 56px;
+  margin-top: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.blog .blogContainer .iconsDiv {
+  gap: 0.5rem;
+  margin-bottom: 2%;
+}
+.blog .blogContainer .iconsDiv .leftIcon {
+  width: 57px;
+  height: 57px;
+  margin-left: 90%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.blog .blogContainer .iconsDiv .leftIcon:hover {
+  background: grey;
+  -moz-column-rule: var(--whiteColor);
+       column-rule: var(--whiteColor);
+}
+.blog .blogContainer .iconsDiv .rightIcon {
+  width: 57px;
+  height: 57px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.blog .blogContainer .iconsDiv .rightIcon:hover {
+  background: grey;
+  -moz-column-rule: var(--whiteColor);
+       column-rule: var(--whiteColor);
+}
+.blog .blogContainer .blogBoxes {
+  gap: 1rem;
+  display: flex;
+}
+.blog .blogContainer .blogBoxes .firstBox {
+  width: 33%;
+  height: 236px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+.blog .blogContainer .blogBoxes .firstBox .icons {
+  width: 56px;
+  height: 56px;
+}
+.blog .blogContainer .blogBoxes .firstBox h3 {
+  width: 100%;
+  height: 29px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.blog .blogContainer .blogBoxes .firstBox p {
+  width: 259px;
+  height: 84px;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* Body font color2 */
+  color: #6d6d6d;
+}
+.blog .blogContainer .blogBoxes .secondBox {
+  width: 33%;
+  height: 236px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+.blog .blogContainer .blogBoxes .secondBox .icons {
+  width: 56px;
+  height: 56px;
+}
+.blog .blogContainer .blogBoxes .secondBox h3 {
+  width: 100%;
+  height: 29px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.blog .blogContainer .blogBoxes .secondBox p {
+  width: 259px;
+  height: 84px;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* Body font color2 */
+  color: #6d6d6d;
+}
+.blog .blogContainer .blogBoxes .thirdBox {
+  width: 33%;
+  height: 236px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+.blog .blogContainer .blogBoxes .thirdBox .icons {
+  width: 56px;
+  height: 56px;
+}
+.blog .blogContainer .blogBoxes .thirdBox h3 {
+  width: 100%;
+  height: 29px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.blog .blogContainer .blogBoxes .thirdBox p {
+  width: 259px;
+  height: 84px;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* Body font color2 */
+  color: #6d6d6d;
+}/*# sourceMappingURL=blog.css.map */

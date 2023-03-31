@@ -1,0 +1,211 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl (201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.footer {
+  width: 100%;
+  left: 0px;
+  background: #031d06;
+}
+.footer .secContainer {
+  gap: 1.5rem;
+}
+.footer .secContainer .footerLogo {
+  margin-top: 75px;
+  margin-left: 120px;
+  padding-bottom: 0.5rem;
+}
+.footer .secContainer .footerLogo .logo {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer .secContainer .footerLogo .logo h1 {
+  display: flex;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.footer .secContainer .footerLogo .logo p {
+  display: flex;
+  width: 60%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  /* or 193% */
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .secContainer .footerLinks {
+  padding-top: 10px;
+  gap: 70px;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+}
+.footer .secContainer .footerLinks .footerLinksMenu {
+  margin-top: 3%;
+}
+.footer .secContainer .footerLinks .footerLinksMenu .linkTitle {
+  display: flex;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksMenu li:hover {
+  transform: translateX(10px);
+}
+.footer .secContainer .footerLinks .footerLinksMenu li:hover a {
+  color: var(--PrimaryColor);
+}
+.footer .secContainer .footerLinks .footerLinksMenu a {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksBooking {
+  margin-top: 3%;
+}
+.footer .secContainer .footerLinks .footerLinksBooking .linkTitle {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksBooking li:hover {
+  transform: translateX(10px);
+}
+.footer .secContainer .footerLinks .footerLinksBooking li:hover a {
+  color: var(--PrimaryColor);
+}
+.footer .secContainer .footerLinks .footerLinksBooking a {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksInformation {
+  margin-top: 3%;
+}
+.footer .secContainer .footerLinks .footerLinksInformation .linkTitle {
+  display: flex;
+  width: 100%;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksInformation li:hover {
+  transform: translateX(10px);
+}
+.footer .secContainer .footerLinks .footerLinksInformation li:hover a {
+  color: var(--PrimaryColor);
+}
+.footer .secContainer .footerLinks .footerLinksInformation a {
+  width: 100%;
+  height: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksContact {
+  margin-top: 0%;
+}
+.footer .secContainer .footerLinks .footerLinksContact .linkTitle {
+  display: flex;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer .secContainer .footerLinks .footerLinksContact span {
+  width: 100%;
+  margin-top: 0%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 2%;
+  justify-content: center;
+}
+.footer .copyright p {
+  right: 40%;
+  top: 20px;
+  width: 300px;
+  height: 24px;
+  color: white;
+}
+
+@media screen and (min-width: 550px) {
+  .footer .secContainer .footerLogo {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .secContainer .footerLogo .footerLinks {
+    text-align: start;
+    max-width: 70%;
+  }
+  .footer .secContainer .copyright {
+    text-align: start;
+    max-width: 70%;
+  }
+  .footer .secContainer .copyright p {
+    text-align: start;
+    max-width: 70%;
+  }
+}/*# sourceMappingURL=footer.css.map */
